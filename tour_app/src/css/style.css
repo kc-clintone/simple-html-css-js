@@ -1,0 +1,130 @@
+/* general */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Verdana';
+	color: white;
+	width: 100%;
+}
+ul,
+li,
+a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/* nav */
+header {
+	width: 100%;
+	height: 2.3rem;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1050px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+	width: 50%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav li {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transform-origin: left;
+	transition: all 0.3s ease-in;
+}
+.nav li:hover {
+	background-color: grey;
+}
+
+/* main */
+.main {
+	/* height: 100%; */
+	width: 100%;
+	margin-top: 2.3rem;
+	/* overflow: hidden; */
+}
+/* hero */
+.hero {
+	background-image: url('../../assets/images/img3.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 60vh;
+	width: 100%;
+}
+.left {
+	margin-top: -4rem;
+}
+.left h3 {
+	font-size: 3.5rem;
+	font-weight: bolder;
+	margin: 8px 0;
+}
+.left p {
+	max-width: 700px;
+}
+
+.right .hero_btn {
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 0.5rem;
+	padding: 1rem 1.75rem;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.hero_btn:hover {
+	background-color: rgba(0, 252, 252, 0.925);
+	border-color: rgba(0, 252, 252, 0.925);
+}
+
+/* cards */
+.hero_cards {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	margin-top: -12rem;
+	z-index: 10;
+}
+.card {
+	width: 250px;
+	box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.418);
+	border-radius: 0.6rem;
+}
+.card img {
+	width: 250px;
+	height: 170px;
+	border-top-right-radius: 0.6rem;
+	border-top-left-radius: 0.6rem;
+	object-fit: cover;
+	object-position: center;
+}
+.card p {
+	color: black;
+	padding: 0.8rem;
+}
