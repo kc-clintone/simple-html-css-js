@@ -167,6 +167,7 @@ header {
 .reserve-btn {
 	margin-top: 1.5rem;
 	padding: 1rem 1.5rem;
+	font-weight: 500;
 	border: 1.6px solid grey;
 	color: grey;
 }
