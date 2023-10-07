@@ -19,6 +19,7 @@ a {
 	font-size: 30px;
 	font-weight: bold;
 	padding: 1rem 0;
+	color: black;
 }
 .btn {
 	background-color: transparent;
@@ -175,4 +176,38 @@ header {
 .reserve-btn:hover {
 	background-color: grey;
 	color: white;
+}
+
+/* services */
+.services {
+	color: black;
+	width: 100%;
+}
+.services-wraper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.service-item {
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem;
+	text-align: center;
+	color: black;
+	margin: 1.3rem;
+	width: 230px;
+	padding: 1rem;
+	border: 1px solid aqua;
+	border-radius: 0.3rem;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.service-item h3 {
+	margin: 0 0 7px 0;
+}
+
+.service-item:hover {
+	background-color: rgba(189, 188, 188, 0.747);
+	border-color: rgb(168, 168, 168);
 }
