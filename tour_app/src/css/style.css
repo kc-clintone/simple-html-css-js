@@ -50,6 +50,8 @@ header {
 	height: 2.3rem;
 	background-color: black;
 	position: fixed;
+	top: 0;
+	left: 0;
 	display: flex;
 	align-items: center;
 }
@@ -84,7 +86,7 @@ header {
 	transition: all 0.3s ease-in;
 }
 .nav li:hover {
-	background-color: rgb(73, 73, 73);
+	background-color: rgba(36, 36, 36, 0.822);
 }
 
 /* main */
@@ -113,7 +115,9 @@ header {
 	font-weight: bolder;
 	margin: 8px 0;
 }
+.left h3,
 .left p {
+	text-shadow: 2px 3px 6px solid black;
 	max-width: 600px;
 }
 .hero_content {
@@ -329,4 +333,9 @@ footer {
 	color: rgba(68, 68, 68, 0.726);
 	justify-content: center;
 	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+}
+.cd:hover {
+	background-color: rgba(68, 68, 68, 0.726);
 }
