@@ -27,6 +27,9 @@ a {
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 }
+img {
+	background-color: rgb(216, 218, 218);
+}
 
 /* nav */
 header {
@@ -198,7 +201,7 @@ header {
 	margin: 1.3rem;
 	width: 230px;
 	padding: 1rem;
-	border: 1px solid aqua;
+	border: 1px solid rgb(168, 168, 168);
 	border-radius: 0.3rem;
 	transition: all 0.2s ease-in-out;
 	cursor: pointer;
@@ -210,4 +213,47 @@ header {
 .service-item:hover {
 	background-color: rgba(189, 188, 188, 0.747);
 	border-color: rgb(168, 168, 168);
+}
+/* places */
+.places {
+	color: black;
+}
+.places_images {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 1rem 0;
+}
+.places_images img {
+	margin: 0.6rem;
+	border-radius: 0.6rem;
+	object-fit: cover;
+	object-position: center;
+}
+.image-1 {
+	width: 170px;
+	height: 320px;
+	flex: 1;
+}
+.image-2 {
+	width: 170px;
+	height: 170px;
+}
+.image-3 {
+	width: 170px;
+	height: 320px;
+}
+.image-4 {
+	width: 170px;
+	height: 170px;
+}
+.image-5 {
+	width: 170px;
+	height: 170px;
+	flex: 2;
+}
+.image-6 {
+	height: 200px;
+	width: calc(100% + 0.6rem);
 }
